@@ -51,3 +51,36 @@ car1.brake()
 console.log(car1)
 air.accelerate()
 console.log(air)
+
+
+
+//----------------------------------------------------------------------------------//////////////////////////////////////--------------------
+// function Automobile(make, model, year) {
+// this.make= make;
+// this.model= model;
+// this.year= year;
+// };
+
+// function Fourwheeler(make, model, year, fuelType,color, numDoors) {
+//   Automobile.call(this, make,model, year)
+//   this.fuelType=fuelType;
+//   this.color=color;
+//   this.numDoors=numDoors;
+// };
+
+// let car1 = new Fourwheeler(2020,"Tata",2021,"Diesel","Red",4);
+// console.log(car1);
+
+
+// let Automobile= {
+//     make: 2020,
+//     model: "Mahindra",
+//     year:2012,
+//     };
+   
+//     let Fourwheeler = Object.create(Automobile);
+//     Fourwheeler.fuelType= "Diesel";
+//     Fourwheeler.color= "Red";
+   
+   
+//     console.log(Fourwheeler);
